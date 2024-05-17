@@ -1,0 +1,70 @@
+/* Add this CSS to your stylesheets or style tag in your React component */
+
+.title {
+    font-size: 24px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .chat-box {
+    background-color: #f0f0f0; /* Set your desired background color */
+    padding: 15px;
+    border-radius: 10px;
+    max-width: 1000px; /* Set your desired maximum width */
+    margin: 0 auto; /* Center the chat box horizontally */
+  }
+
+  .text-field {
+    width: 91%;
+    padding: 8px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .btn {
+    background-color: #09bb0f;
+    height: 33px;
+    color: white;
+    padding: 7px 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .btn:hover {
+    background-color: #0a8710;
+  }
+
+.user-msg {
+    background-color: #bef396; /* Background color for user messages */
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    clear: both;
+    float: left;
+  }
+  
+  .res-msg {
+    background-color: #d9d6d6; /* Background color for response messages */
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    overflow-x: hidden;
+    clear: both;
+    float: right;
+  }
+  
+  
